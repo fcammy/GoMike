@@ -1,0 +1,23 @@
+{
+  "name": "gomike",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcammy/GoMike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcammy/GoMike/issues"
+  },
+  "homepage": "https://github.com/fcammy/GoMike#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
