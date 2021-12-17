@@ -923,8 +923,6 @@ cite {
     position: relative;
   }
 
-  
-
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -1055,7 +1053,14 @@ cite {
     padding-right: 0;
   }
 
- 
+  .bloc-tile-2 .container,
+  .bloc-tile-3 .container,
+  .bloc-tile-4 .container,
+  .bloc-fill-screen .fill-bloc-top-edge,
+  .bloc-fill-screen .fill-bloc-bottom-edge {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .a-block {
     padding: 0 10px;
@@ -1084,8 +1089,4 @@ cite {
   .close-lightbox {
     display: inline-block;
   }
-
-
 }
-
-
