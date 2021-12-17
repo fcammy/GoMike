@@ -923,10 +923,7 @@ cite {
     position: relative;
   }
 
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+  
 
   .bloc-group,
   .bloc-group .bloc {
@@ -937,8 +934,6 @@ cite {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1060,14 +1055,7 @@ cite {
     padding-right: 0;
   }
 
-  .bloc-tile-2 .container,
-  .bloc-tile-3 .container,
-  .bloc-tile-4 .container,
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding-left: 0;
-    padding-right: 0;
-  }
+ 
 
   .a-block {
     padding: 0 10px;
@@ -1097,28 +1085,7 @@ cite {
     display: inline-block;
   }
 
-  .blocsapp-device-iphone5 {
-    background-size: 216px 425px;
-    padding-top: 60px;
-    width: 216px;
-    height: 425px;
-  }
 
-  .blocsapp-device-iphone5 img {
-    width: 180px;
-    height: 320px;
-  }
 }
 
-@media (max-width: 400px) {
-  .bloc {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
-  }
-}
